@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+header {
+    background-color: #765b9d;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+}
+
+.search-container {
+    position: absolute;
+    top: 25%;
+    right: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5em;
+}
+
+.search-container button {
+    padding: 0.5em 1em;
+    background-color: #3700b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+    padding: 1em;
+    margin-top: 5em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#notes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.note {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.note h3 {
+    margin-top: 0;
+}

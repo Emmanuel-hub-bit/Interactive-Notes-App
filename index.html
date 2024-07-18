@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Notes App</h1>
+    </header>
+    <main>
+        <!-- search notes bar and button -->
+        <section id="search-notes">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="search-button">Search</button>
+            </div>
+        </section>
+        <!-- add new notes text area and button -->
+        <section id="new-note">
+            <h2>Add a New Note</h2>
+            <input type="text" id="note-title" placeholder="Title">
+            <textarea id="note-content" placeholder="Content"></textarea>
+            <button id="add-note">Add Note</button>
+        </section>
+        <!-- notes list area -->
+        <section id="notes-list">
+            <h2>Your Notes</h2>
+            <div id="notes-container"></div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
