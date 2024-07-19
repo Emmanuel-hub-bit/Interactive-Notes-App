@@ -11,11 +11,6 @@
       "content": "CSS (Cascading Style Sheets) selectors are used to target HTML elements for styling. There are various types of selectors, including class selectors, ID selectors, and element selectors. By mastering CSS selectors, you can apply styles efficiently and effectively, ensuring your web pages look consistent and visually appealing across different devices."
     },
     {
-      "id": "6862",
-      "title": "JavaScript Variables and Data Types",
-      "content": "Variables in JavaScript are containers for storing data values. They can be declared using var, let, or const. JavaScript supports several data types, including strings, numbers, booleans, objects, and arrays. Understanding how to declare and manipulate variables is fundamental to writing effective JavaScript code"
-    },
-    {
       "id": "79a9",
       "title": "Event Handling in JavaScript",
       "content": "Event handling allows developers to execute code in response to user actions such as clicks, key presses, or mouse movements. Using methods like addEventListener, you can bind event handlers to elements and create dynamic, interactive web pages. Proper event handling enhances the user experience by making web applications responsive to user interactions."
@@ -49,6 +44,11 @@
       "id": "c743",
       "title": "Building Forms in HTML and JavaScript",
       "content": "Forms are a crucial part of web applications, allowing users to input and submit data. HTML provides various form elements like input fields, radio buttons, and checkboxes, while JavaScript can be used to validate and process form data. Building and handling forms properly ensures a smooth and secure data collection process for web applications.\n\n\n\n\n\n\n"
+    },
+    {
+      "id": "182c",
+      "title": "JavaScript Variables and Data Types",
+      "content": "Variables in JavaScript are containers for storing data values. They can be declared using var, let, or const. JavaScript supports several data types, including strings, numbers, booleans, objects, and arrays. Understanding how to declare and manipulate variables is fundamental to writing effective JavaScript code."
     }
   ]
 }
