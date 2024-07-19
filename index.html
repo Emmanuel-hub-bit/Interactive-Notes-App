@@ -22,7 +22,7 @@
         <section id="new-note">
             <h2>Add a New Note</h2>
             <input type="text" id="note-title" placeholder="Title">
-            <textarea id="note-content" placeholder="Content"></textarea>
+            <textarea id="note-content" placeholder="Notes..."></textarea>
             <button id="add-note">Add Note</button>
         </section>
         <!-- notes list area -->
@@ -30,6 +30,16 @@
             <h2>Your Notes</h2>
             <div id="notes-container"></div>
         </section>
+         <!-- Edit Note Modal -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>Edit Note</h2>
+            <input type="text" id="edit-note-title" placeholder="Note Title">
+            <textarea id="edit-note-content" placeholder="Note Content"></textarea>
+            <button id="save-note">Save</button>
+        </div>
+    </div>
     </main>
     <script src="index.js"></script>
 </body>
